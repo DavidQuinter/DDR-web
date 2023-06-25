@@ -1,0 +1,17 @@
+.btn-secondary{
+    @include size(fit-content,auto, 0, 3px);
+    @include btnStructureSolid(20px, $Color-Blanco);
+    
+    color: $Color-Blanco;
+    cursor: pointer;
+    border: solid;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .5s;
+    text-decoration: none;
+}
+.btn-secondary:hover{
+    background-color: $Color-azulFuerte;
+    border-color: $Color-azulFuerte;
+    transition: .5s;
+}

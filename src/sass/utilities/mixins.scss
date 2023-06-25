@@ -1,0 +1,19 @@
+@mixin imagen(){
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+@mixin size($width, $heigth, $margin, $padding ){
+    width: $width;
+    height: $heigth;
+    margin: $margin;
+    padding: $padding;
+}
+
+@mixin btnStructureSolid($b-raduis, $b-color){
+    border: solid;
+    border-radius: $b-raduis;
+    border-color: $b-color;
+    cursor: pointer;
+}
