@@ -2,7 +2,7 @@
   "name": "ddr-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://DavidQuinter..github.io/ddrtechsolutions.com",
+  "homepage": "https://ddrtechsolutions.com",
 
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
