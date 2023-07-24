@@ -10,7 +10,7 @@ function Banner(){
         <article className="banner">
           <div className="content-banner">
             <h2>Tu solucion ideal para tu seguridad y confort</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus aspernatur neque cumque placeat odit nesciunt expedita ab ut, magnam atque? Architecto nulla rerum asperiores vero necessitatibus eos corporis eligendi labore.</p>
+            <p>Seguridad y frescura de ultima tecnología para tus instalaciones, cubriendo desde hogares hasta la industria </p>
             <div className="btn-primary">
               <a href="">view our projects</a>
             </div>
@@ -27,7 +27,7 @@ function Banner(){
               </figure>
               <figcaption className="card-banner-des">
                 <h3>Planeación</h3>
-                <p>Lorem ipsum dolor sit consectetur adipiscing elit.</p>
+                <p>Llevada acabo con profecionales altamente capacitados</p>
               </figcaption>
             </div>
             <div className="card-banner">
@@ -36,7 +36,7 @@ function Banner(){
               </figure>
               <figcaption className="card-banner-des">
                 <h3>Instalación</h3>
-                <p>Lorem ipsum dolor sit consectetur adipiscing elit.</p>
+                <p>Instalación de primera, en tiempo y forma</p>
               </figcaption>
             </div>
             <div className="card-banner">
@@ -45,7 +45,7 @@ function Banner(){
               </figure>
               <figcaption className="card-banner-des">
                 <h3>Soporte</h3>
-                <p>Lorem ipsum dolor sit consectetur adipiscing elit.</p>
+                <p>Soporte técnico y de manteniemiento durante el proceso</p>
               </figcaption>
             </div>
           </section>
