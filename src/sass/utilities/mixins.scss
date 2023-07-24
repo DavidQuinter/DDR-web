@@ -4,6 +4,12 @@
     object-fit: cover;
     object-position: center;
 }
+@mixin bgImg($url){
+    background-image: url($url);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover
+}
 @mixin size($width, $heigth, $margin, $padding ){
     width: $width;
     height: $heigth;
@@ -17,3 +23,43 @@
     border-color: $b-color;
     cursor: pointer;
 }
+@mixin center(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+///
+// SO responsive mixin
+// a mixin is different from a function as it does not return a value but serves as placeholder for code
+@mixin responsive( $breakpoint ) {
+    /*
+        breakpoints are viewport arbitrary values,
+        they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+        the breakpoints I used were inspired by Bootstrap =>
+        https://getbootstrap.com/docs/5.0/layout/breakpoints/
+    */
+    @if $breakpoint == smartphone-portrait {
+        @media only screen and ( max-width: 575.98px ) {
+            @content;
+        }
+    }
+    @if $breakpoint == tablet-landscape {
+        @media only all and (orientation: landscape) {
+            @content;
+        }
+    }
+    @if $breakpoint == tablet {
+        @media only screen and ( max-width: 1199.97px ) {
+            @content;
+        }
+    }
+}
+// EO responsive mixin
+
+//example of how to use the mixin in your SCSS code (inside a given selector)
+// .myCLass {
+//   @include responsive(smartphone-portrait) {
+  //   font-size: 15px;
+   //}
+//}

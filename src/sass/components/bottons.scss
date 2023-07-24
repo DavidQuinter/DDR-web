@@ -1,11 +1,15 @@
+.btn-primary{
+    @include size(fit-content,auto, 0, 5px);
+    @include btnStructureSolid(0, $Color-Blanco);
+}
 .btn-secondary{
     @include size(fit-content,auto, 0, 3px);
     @include btnStructureSolid(20px, $Color-Blanco);
     
-    color: $Color-Blanco;
+    color: $Color-obscuro;
     cursor: pointer;
     border: solid;
-    font-size: 18px;
+    font-size: 1.5rem;
     font-weight: 600;
     transition: .5s;
     text-decoration: none;
@@ -14,4 +18,5 @@
     background-color: $Color-azulFuerte;
     border-color: $Color-azulFuerte;
     transition: .5s;
+    color: white;
 }

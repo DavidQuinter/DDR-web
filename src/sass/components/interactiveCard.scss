@@ -1,0 +1,64 @@
+.structure-container-iCards{
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  min-height: calc(30rem + 10rem);
+  background-color: $Color-azulClaro;
+}
+.ICard-container {
+  @include size(25rem, 30rem, 0, 0);
+  position: relative;
+}
+
+.img-ICard-container {
+  @include size(100%, 100%, 0, 0);
+  overflow: hidden;
+}
+
+.ICard-img {
+  @include imagen();
+  transition: transform 0.8s;
+  cursor: pointer;
+}
+
+.ICard-text {
+  display: none;
+  position: absolute;
+  transition: transform 1s;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  @include size(100%, 100%, 0, 0);
+  h1{
+    font-size: 2.4rem;
+  }
+    p {
+      font-size: 1.2rem;
+      width: 85%;
+    }
+}
+
+.img-ICard-container:hover img {
+  transform: scale(1.5);
+}
+
+.img-ICard-container:hover .ICard-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    136deg,
+    rgba(34, 34, 38, 0.6) 0%,
+    rgba(58, 59, 64, 0.6) 100%
+  );
+  z-index: 9;
+  opacity: 0;
+  transition: opacity 0.8s;
+}
+.img-ICard-container:hover .ICard-text {
+    opacity: 1;
+  }

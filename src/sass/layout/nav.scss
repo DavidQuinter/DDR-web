@@ -1,49 +1,91 @@
+
 .header-container{
-    display: flex;
-    background-color: black;
-}
-.logo-container{
-    @include size(300px, 75px, 0 0 0 1rem, 0);
-    .logo{
-        @include imagen;
-    }
-}
-.nav-container{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-grow: 3;
-}
-.nav-link{
-    color: $Color-Blanco;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 600;
-    cursor: pointer;
     position: relative;
-}
-.nav-link::after{
-    content: "";
-    position: absolute;
-    height: 3px;
-    width: 0;
-    background-color: $Color-Blanco;
-    transition: width .5s;
-}
-.nav-link::after{
-    left: 0;
-    bottom: -10px;
-}
-.nav-link:hover::after{
-    width: 100%;
-}
-.toggle-menu{
-    display: none;
-}
-.container-btn-contacto{
-    flex-grow: 1;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-right: 50px;
+    background-color: $Color-Blanco;
+    width: 100%;
+    z-index: 10;
+    flex-wrap: wrap;
+    @include responsive(smartphone-portrait){
+        justify-content: space-evenly;
+    }
+    .logo-container{
+        @include size(200px, 50px, 0 0 0 5rem, 0);
+        .logo{
+            @include imagen;
+        }
+        @include responsive(smartphone-portrait){
+            margin:0 0 0 2rem;
+        }
+    }
+    .nav-container{
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-grow: 3;
+        @include responsive(smartphone-portrait){
+            display: none;
+        }
+
+        .nav-link{
+            color: $Color-obscuro;
+            text-decoration: none;
+            font-size: 1.5rem;
+            font-weight: 600;
+            cursor: pointer;
+            position: relative;
+        }
+        .nav-link::after{
+            content: "";
+            position: absolute;
+            height: 3px;
+            width: 0;
+            background-color: $Color-azulClaro;
+            transition: width .5s;
+        }
+        .nav-link::after{
+            left: 0;
+            bottom: -10px;
+        }
+        .nav-link:hover::after{
+            width: 100%;
+        }
+    }
+    .nav-btn{
+        display: none;
+        background-color: transparent;
+        border: none;
+        @include responsive(smartphone-portrait){
+            display: block;
+        }
+        @include responsive(smartphone-portrait){
+            flex-grow: 1;
+        }
+    }
+    .container-btn-contacto{
+        flex-grow: 1;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 50px;
+        @include responsive(smartphone-portrait){
+            margin: 0;
+            justify-content: center;
+        }
+    }
+
+}
+
+
+.responsive-nav{
+    position: absolute;
+    @include responsive(smartphone-portrait){
+        display: flex !important;
+    }
+    width: 100%;
+    order: 3;
+    height: calc(100vh - 5rem);
+    z-index: 20;
+    flex-direction: column;
 }

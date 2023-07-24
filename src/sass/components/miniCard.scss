@@ -1,0 +1,40 @@
+.valores-container{
+    width: 100%;
+    margin-top: 10rem;
+    @include center();
+}
+.valores-structure{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 90%;
+    gap: 10rem;
+}
+.minicars-container{
+    width: 50rem;
+    gap: 2rem;
+}
+
+.des-sty{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.sty-des{
+    background: $Color-Gris;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+}
+.icon-abs{
+    position: absolute;
+    top: -30%;
+    left: -13%;
+}
+.img-icon{
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    object-position: center;
+}

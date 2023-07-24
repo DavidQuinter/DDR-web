@@ -1,0 +1,72 @@
+.form-section{
+    display: flex;
+    background: linear-gradient(135deg, #222226 0%, #3A3B40 100%);
+    color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    @include responsive(smartphone-portrait){
+        gap: 10rem;
+    }
+}
+.form-container{
+    flex-grow: 2;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include responsive(tablet){
+        width: 100%;
+
+    }
+    h1{
+        font-size: 2.5rem;
+        @include responsive(smartphone-portrait){
+            font-size: 1.8rem;
+    
+        }
+    }
+}
+.mapa{
+    width: 40%;
+    @include responsive(smartphone-portrait){
+            width: 100%;
+        }
+    iframe{
+        width: -webkit-fill-available;
+        
+    }
+}
+.form{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(24rem, 29rem));
+    gap: 1rem 4rem ;
+    @include responsive(smartphone-portrait){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+}
+.input-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 28.5rem;
+    @include responsive(smartphone-portrait){
+        width: 100%;
+    }
+    input{
+        border-radius: .5rem;
+        border: none;
+        height: 2.5rem;
+    }
+}
+.input-send{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 20rem;
+    justify-self: center;
+    background-color: transparent;
+    color: $Color-Blanco;
+    font-weight: bold;
+    border-color: $Color-Blanco;
+}

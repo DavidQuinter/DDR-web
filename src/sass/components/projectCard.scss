@@ -1,0 +1,27 @@
+.Pjcard-structure{
+    height: 58rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.imgBox-Pjcard{
+    width: 100%;  
+    height: 18rem;  
+}
+.sizeImg-PjCard{
+    height: 18rem;
+}
+.desBox-Pjcard{
+    height: 38rem;
+    border: solid 1px;
+    border-color: $Color-grisClaro;
+    padding: 4rem 3rem;
+}
+.Project-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.Project-des{
+    font-size: 1.5rem;
+}

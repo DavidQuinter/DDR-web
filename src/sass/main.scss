@@ -2,7 +2,20 @@
 @import 'utilities/variables.scss';
 
 @import 'base/normalize';
+@import 'base/general.scss';
 
 @import 'layout/nav.scss';
+@import 'layout/banner.scss';
+@import 'layout/secondaryBanner.scss';
+@import 'layout/Form.scss';
 
 @import 'components/bottons.scss';
+@import 'components/cardProductDes.scss';
+@import 'components/MyV.scss';
+@import 'components/miniCard.scss';
+@import 'components/interactiveCard.scss';
+@import 'components/projectCard.scss';
+
+@import 'views/home.scss';
+@import 'views/climas.scss';
+@import 'views/seguridad.scss';
