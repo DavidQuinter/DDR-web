@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d9b9cd4a.css",
+    "main.js": "/static/js/main.762f8e10.js",
+    "static/js/787.bfcae13f.chunk.js": "/static/js/787.bfcae13f.chunk.js",
+    "static/media/angulo-vista-rascacielos.webp": "/static/media/angulo-vista-rascacielos.60d84ba376f71bb8d928.webp",
+    "static/media/bgSoporte.jpg": "/static/media/bgSoporte.67f9b4fc1af0be9d4db5.jpg",
+    "static/media/SeguridadResidencial.jpg": "/static/media/SeguridadResidencial.97da2bcc3e3325a286ca.jpg",
+    "static/media/SeguriudadEscolar.jpg": "/static/media/SeguriudadEscolar.bc6b3d203bf64bc28cc0.jpg",
+    "static/media/aire-acondicionado.jpg": "/static/media/aire-acondicionado.c9467a91717711fe2fe5.jpg",
+    "static/media/nosotros.jpg": "/static/media/nosotros.f305cc274e510949ff5b.jpg",
+    "static/media/SeguridadComercial.jpg": "/static/media/SeguridadComercial.0223506e55baa7f927a2.jpg",
+    "static/media/Mantenimiento-Industrial.jpg": "/static/media/Mantenimiento-Industrial.4727f84919595c9dddac.jpg",
+    "static/media/Golan.jpg": "/static/media/Golan.9453eb0b6480d8ac65fc.jpg",
+    "static/media/SeguridadIndustrial.jpg": "/static/media/SeguridadIndustrial.cb0d6124eebe7ee9e965.jpg",
+    "static/media/Guardia-seguridad.jpg": "/static/media/Guardia-seguridad.3efc2cba18c65d25658f.jpg",
+    "static/media/Mantenimiento-Aires.jpg": "/static/media/Mantenimiento-Aires.04b13392ec7576cc404a.jpg",
+    "static/media/espectacular.jpg": "/static/media/espectacular.38d9a87ca5f7722e0b4e.jpg",
+    "static/media/Mantenimiento-Oficina.jpg": "/static/media/Mantenimiento-Oficina.add9bf9ff044bd1a0819.jpg",
+    "static/media/Mantenimiento-CCTV.jpg": "/static/media/Mantenimiento-CCTV.5566bad1f4a33284cdc8.jpg",
+    "static/media/autos-gps.jpg": "/static/media/autos-gps.dbcc827be08431341439.jpg",
+    "static/media/soporte.jpg": "/static/media/soporte.3aea68c281d23a967b5c.jpg",
+    "static/media/cctv.png": "/static/media/cctv.9a9ff385a83b5f2240f8.png",
+    "static/media/seguridad-informatica.png": "/static/media/seguridad-informatica.2d414223b4278c30d801.png",
+    "static/media/control-de-acceso.png": "/static/media/control-de-acceso.40d103e9113f3ccb2455.png",
+    "static/media/satelite.png": "/static/media/satelite.f234e48f004443a24f20.png",
+    "static/media/seguridad.png": "/static/media/seguridad.42e9d68e650c25e4ef5d.png",
+    "static/media/DD-logo-fondo-blanco.png": "/static/media/DD-logo-fondo-blanco.2df46236e182b48df579.png",
+    "static/media/walkie-talkie.png": "/static/media/walkie-talkie.e162af7b942700baf57e.png",
+    "static/media/alarma.png": "/static/media/alarma.5e022b1e0c18eaaeeff1.png",
+    "static/media/cerca-electrica.png": "/static/media/cerca-electrica.97adc45099f943188c83.png",
+    "index.html": "/index.html",
+    "main.d9b9cd4a.css.map": "/static/css/main.d9b9cd4a.css.map",
+    "main.762f8e10.js.map": "/static/js/main.762f8e10.js.map",
+    "787.bfcae13f.chunk.js.map": "/static/js/787.bfcae13f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9b9cd4a.css",
+    "static/js/main.762f8e10.js"
+  ]
+}
