@@ -102,7 +102,6 @@ const Home = () => {
         {/*<a>View all</a>*/}
       </section>
       <section className="Logos-clientes">
-        <img className="logo-cliente" src={logosPaths.AdCity} alt="Adcity" />
         <img className="logo-cliente" src={logosPaths.Bydsa} alt="Bydsa" />
         <img className="logo-cliente" src={logosPaths.GolanSecurity} alt="Golan" />
       </section>
